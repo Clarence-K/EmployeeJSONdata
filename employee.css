@@ -1,7 +1,41 @@
-div {
-  border: 2px solid powderblue;
+
+
+span {
+    font-weight:bold;
+    font-size: 24px;
 }
 
-#eName{
+.employee {
+    border:1px solid black;
+    border-radius: 10px;
     
 }
+
+.title {
+    float:left;
+}
+
+.eName {
+    float:left;
+    display:block;
+}
+
+span.title {
+    display:block;
+}
+
+span.department {
+    display:block;
+}
+
+span.email {
+    display:block;
+}
+
+img {
+    float:left;
+    display:inline-block;
+    
+}
+
+
