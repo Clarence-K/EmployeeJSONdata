@@ -1,4 +1,7 @@
-
+body{
+    width:550px
+        
+}
 
 span {
     font-weight:bold;
@@ -8,16 +11,20 @@ span {
 .employee {
     border:1px solid black;
     border-radius: 10px;
+    box-shadow: 5px 10px ;
     
 }
 
 .title {
-    float:left;
+    float:left;width:300px
+    
 }
 
 .eName {
-    float:left;
+    float:none;
     display:block;
+    width:250px;
+    
 }
 
 span.title {
@@ -34,8 +41,15 @@ span.email {
 
 img {
     float:left;
-    display:inline-block;
-    
+    height:240px;
+/*    display:inline-block;*/
+}
+.department{
+    width:200px
+    float: left}
+.bio{
+    float:none;
+        text-overflow: auto
 }
 
 
